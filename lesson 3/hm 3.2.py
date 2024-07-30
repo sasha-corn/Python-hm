@@ -1,4 +1,7 @@
-List = [21, 56, 4, 25, 777, 102, 3]
+numbers = [21, 56, 4, 25, 777, 102, 3]
 
-List.insert(0, List.pop(-1))
-print(List)
+if len(numbers) == 0:
+    print(numbers)
+else:
+    numbers.insert(0, numbers.pop(-1))
+    print(numbers)
